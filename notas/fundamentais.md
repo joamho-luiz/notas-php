@@ -5,7 +5,7 @@ Fundamentais
 # Memoria
 
 <br/>
-\* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 
 ## Variáveis
@@ -54,7 +54,7 @@ $cadastro = array(
 ```
 
 <br/>
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br/>
 
 # Tipo de Dados (Tipagem)
@@ -76,7 +76,7 @@ Php não trabalha com tipagem.
 
 * Auto concatenação 	
 ```php
-$a = $a . $b    $a .= $b
+$a .= $b
 ```
 
 * Inserção de variável em string
@@ -89,20 +89,22 @@ echo "$nome tem $idade anos";
 `+` `-` ` *` ` /` ` %` (Resto da divisão inteira)
 
 * Auto atribuição      `$n += 2`  
+
 * Incremento        `$n++`  
+
 * Decremento        `$n--`
 
 ## Relacionais
 
 `>` `<` `>=` `<=` `==` ( `!=` ou `<>` )     
 
-Inversor `$a = ! $b`  
+Inversor `$a =! $b`  
 
 Idêntico `$a === $b`
 
 ## Lógicos
 
-`!` (Negação) `&&` (Conjunção) `||` (Disjunção) 
+`!` (Negação) `&&` (Conjunção) `||` (Disjunção)  
 
 (Esta é a ordem de execução (precedência)).
 
