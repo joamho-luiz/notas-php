@@ -11,5 +11,13 @@
     } else {
         # code...
     }
+
+    foreach ($variable as $key => $value) {
+        # code...
+    }
+
+
+$n = 2;
+$c = $n ? true
     
 ?>

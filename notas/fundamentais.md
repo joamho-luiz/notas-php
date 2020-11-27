@@ -1,62 +1,129 @@
-Variáveis
+Fundamentais
+***
+<br/>
+ 
+# Memoria
 
-$nome = "João";
-$idade = 20;
-echo $nome. " tem ". $idade. " anos! <br/>";
-echo "$nome tem $idade";
+<br/>
+\* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
-Variáveis referenciadas
 
-Qualquer alteração em b afeta a 	$a = &$b
+## Variáveis
 
-Variáveis de variáveis
+`$nome = "João";`
 
-Nomear variável a partir do valor de outra variável. O nome da variável que tem o valor “c” se chama b.
+## Variáveis referenciadas
 
-$a = "b"        $$a = "c"
+Qualquer alteração em b afeta a.  
 
-Operadores Aritméticos
+`$a = &$b`
 
-(java)
+## Variáveis de variáveis
 
-Operadores de Atribuição
+Nomear variável a partir do valor de outra variável. 
 
-(Java) 		
+`$a = "b"        $$a = "c"` &nbsp; &nbsp; _O nome da variável que tem o valor “c” se chama b._
 
-Concatenação	$a = $a . $b    $a .= $b
+## Vetores
 
-Operadores Especiais
+### Definir um vetor  
 
-$v1 = 4,5;
-$v2 = -2;
-echo "Potência de $v1<sup>$v2</sup> é: ". pow($v1, $v2);
-// valor absoluto abs($v2);
-// raiz quadrada sqrt($v1)
-// valor inteiro intVal($v1);
-// arredondamento round($v1); ~~ ceil ↑    floor ↓
-// formatação de n° number_format($v1, 2, ",", "."); ~~ <,>separar centavos <.>separa milhar
+`$n = array(2,5,8);`
 
-Operadores Relacionais
+### Atribuir valor a um elemento do vetor
 
-(Java) 
+`$n[0] = 7;`
+ 
+### Estrutura de repetição útil para trabalhar com vetores  
 
-Diferente $a <> $ b   $a != $b		
-Inversor $a = ! $b		
-Idêntico $a === $b
+Para cada elemento do vetor considere ele o valor.
 
-Operadores de Incremento
+```php 
+foreach ($vetor as $key => $valor) {
+    # código...
+}
+```
 
-(Java)
+### Usar valores determinados nos indices
 
-Operador Ternário		
+```php
+$cadastro = array(
+    "nome" => "Ana", 
+    "idade => 23
+);
+```
 
-Expressão ? verdadeiro : falso	
-$a > $b  ?  $a  :  $b	
+<br/>
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+<br/>
 
-Operador de Coalescência
+# Tipo de Dados (Tipagem)
 
-$n = $_GET["num"] ?? "Nenhum";
+Php não trabalha com tipagem.
 
-Operadores Lógicos
+<br/>
 
-and &&	or ||           xor		!
+***
+# Operadores
+
+## Atribuição
+
+#### `=`
+
+## Concatenação
+
+### `.`
+
+* Auto concatenação 	
+```php
+$a = $a . $b    $a .= $b
+```
+
+* Inserção de variável em string
+```php
+echo "$nome tem $idade anos";
+```
+
+## Aritméticos
+
+`+` `-` ` *` ` /` ` %` (Resto da divisão inteira)
+
+* Auto atribuição      `$n += 2`  
+* Incremento        `$n++`  
+* Decremento        `$n--`
+
+## Relacionais
+
+`>` `<` `>=` `<=` `==` ( `!=` ou `<>` )     
+
+Inversor `$a = ! $b`  
+
+Idêntico `$a === $b`
+
+## Lógicos
+
+`!` (Negação) `&&` (Conjunção) `||` (Disjunção) 
+
+(Esta é a ordem de execução (precedência)).
+
+## Operador Ternário		
+
+$n = **condição** `?` valor para **verdadeiro** `:` valor para **falso**
+
+## Operador de Coalescência
+
+$n = `$_GET[`"name"`]` `??` "valor se não for passado nada";
+
+## Alguns métodos úteis em matemática
+
+`pow($v, $w)` potencia ( $v<sup> $w</sup> )
+
+`abs($v)` valor absoluto   
+
+`sqrt($v)` raiz quadrada   
+
+`intVal($v)` valor inteiro   
+
+`round($v)` arredondamento. Também: _ceil ( ) floor ( )_  
+
+`number_format($v1, 2, ",", ".")` separação de milhar por . e duas cas decimais por ,

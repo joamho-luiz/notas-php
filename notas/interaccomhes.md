@@ -16,12 +16,12 @@ echo "Olá, mundo!";
  
 # Conexões
 
-Pegar valor de formulário (valor que vai ser passado na URL).
+Pegar valor de um formulário (valor que vai ser passado na URL).
 
 No html: `<form method="get">`		
 
 ```php
-$variahvel = $_GET["N"];
+$variahvel = $_GET["name do objeto em html"];
 ```
 
 <br/>
