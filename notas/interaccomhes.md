@@ -16,9 +16,13 @@ echo "Olá, mundo!";
  
 # Conexões
 
-Passar Valor de HTML para PHP
+Pegar valor de formulário (valor que vai ser passado na URL).
 
-<form method="get">			$v = $_GET["N"];
+No html: `<form method="get">`		
+
+```php
+$variahvel = $_GET["N"];
+```
 
 <br/>
 

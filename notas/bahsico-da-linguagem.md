@@ -4,8 +4,6 @@ Básico da Linguagem
  
 # Nomenclaturas
 
-#edt  
-
 <br/>
 
 # Comentários
@@ -13,7 +11,7 @@ Básico da Linguagem
 // Comentar linha
 
 /*  
- &nbsp; &nbsp; Comentar Bloco  
+ &nbsp; &nbsp; Comentar bloco  
 */
 
 # Outras Particularidades
