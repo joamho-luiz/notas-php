@@ -16,13 +16,13 @@ Fundamentais
 
 Qualquer alteração em b afeta a.  
 
-`$a = &$b`
+`$a = &$b;`
 
 ## Variáveis de variáveis
 
 Nomear variável a partir do valor de outra variável. 
 
-`$a = "b"        $$a = "c"` &nbsp; &nbsp; _O nome da variável que tem o valor “c” se chama b._
+`$a = "b";` `$$a = "c";` &nbsp; &nbsp; _O nome da variável que tem o valor “c” se chama b._
 
 ## Vetores
 
@@ -33,6 +33,15 @@ Nomear variável a partir do valor de outra variável.
 ### Atribuir valor a um elemento do vetor
 
 `$n[0] = 7;`
+
+### Usar valores determinados nos indices
+
+```php
+$cadastro = array(
+    "nome" => "Ana", 
+    "idade => 23
+);
+```
  
 ### Estrutura de repetição útil para trabalhar com vetores  
 
@@ -42,15 +51,6 @@ Para cada elemento do vetor considere ele o valor.
 foreach ($vetor as $key => $valor) {
     # código...
 }
-```
-
-### Usar valores determinados nos indices
-
-```php
-$cadastro = array(
-    "nome" => "Ana", 
-    "idade => 23
-);
 ```
 
 <br/>

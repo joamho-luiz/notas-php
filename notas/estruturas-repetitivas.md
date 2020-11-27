@@ -1,16 +1,59 @@
-Estruturas de Repetição
+Estrutura de repetições
+***
 
-Break: sai do loop	
-Continue: ignora o resto código e volta para o loop.
+Repetições, laços ou interações. 
 
-Teste Lógico no início: 	while (condição) {i++}	 
+<br/>
+ 
+# Teste lógico no ínicio
 
-Variável de controle:		for ($v; condição; v++) {}
+```php
+$a = 1;
 
-* Estrutura de repetição útil para trabalhar com vetores:
-
-```php 
-foreach($c as $valor){
-    echo "$valor";
+while ($a <= 10) {
+    echo "Passo $a";
+    $a++;
 }
 ```
+
+<br/>
+ 
+# Teste lógico no final
+
+```php
+$a = 1;
+
+do {
+    echo "Passo $a";
+    $a++;
+} while ($a <= 10);
+```
+
+<br/>
+ 
+# Inicialização + Teste lógico no início + Incrementação no início
+
+```php
+for ($a=0; $a <= 10; $a++) { 
+    echo "Passo $a";
+}
+```
+
+<br/>
+ 
+# Repetição útil para Vetores
+
+_"Para percorrer arrays"_
+
+Para cada **_elemento_** do **vetor** `$vet` coloque o **índice** em `$ind` e o **valor** em `$val`.
+```php
+foreach ($vet as $ind => $val) {
+    echo "A posição $ind tem o valor $val";
+}
+```
+
+# Controle de loop
+
+* `Break;` sai do loop de repetição.	
+
+* `Continue;` ignora o resto código passa para próxima repetição.

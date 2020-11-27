@@ -1,23 +1,21 @@
 <?php
-    echo "";
-    if (condition) {
-        # code...
-    }
 
-    $retVal = (condition) ? a : b ;
+while ($a <= 10) {
+    # code...
+}
 
-    if (condition) {
-        # code...
-    } else {
-        # code...
-    }
+for ($i=0; $i < ; $i++) { 
+    # code...
+}
 
-    foreach ($variable as $key => $value) {
-        # code...
-    }
+do {
+    # code...
+} while ($a <= 10);
 
+foreach ($variable as $key => $value) {
+    # code...
+}
 
-$n = 2;
-$c = $n ? true
     
+
 ?>
