@@ -52,7 +52,7 @@ foreach ($vet as $ind => $val) {
 }
 ```
 
-# Controle de loop
+# Controle de Loop
 
 * `Break;` sai do loop da repetição.	
 

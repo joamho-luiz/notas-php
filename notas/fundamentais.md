@@ -24,15 +24,15 @@ Nomear variável a partir do valor de outra variável.
 
 ## Vetores
 
-### Definir um vetor  
+* Definir um vetor  
 
 `$n = array(2,5,8);`
 
-### Atribuir valor a um elemento do vetor
+* Atribuir valor a um elemento do vetor
 
 `$n[0] = 7;`
 
-### Usar valores determinados nos indices
+### Usar índices determinados
 
 ```php
 $cadastro = array(
@@ -104,11 +104,11 @@ echo "$nome tem $idade anos";
 
 (Esta é a ordem de execução (precedência)).
 
-## Operador Ternário		
+## Ternário		
 
 >$n = **condição** `?` valor para **verdadeiro** `:` valor para **falso**
 
-## Operador de Coalescência
+## De Coalescência
 
 $n = `$_GET[`"name"`]` `??` "valor se não for passado nada";
 
