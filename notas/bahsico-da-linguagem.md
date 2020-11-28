@@ -10,8 +10,10 @@ Básico da Linguagem
 
 \# Comentar linha
 
+// Comentar linha
+
 /*  
- &nbsp; &nbsp;Comentar bloco  
+ &nbsp; &nbsp; Comentar bloco  
 */
 
 # Outras Particularidades
