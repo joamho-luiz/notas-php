@@ -5,8 +5,6 @@ Fundamentais
 # Memoria
 
 <br/>
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-
 
 ## Variáveis
 
@@ -18,7 +16,7 @@ Qualquer alteração em b afeta a.
 
 `$a = &$b;`
 
-## Variáveis de variáveis
+## Variáveis com nome variável
 
 Nomear variável a partir do valor de outra variável. 
 
@@ -43,21 +41,19 @@ $cadastro = array(
 );
 ```
  
-### Estrutura de repetição útil para trabalhar com vetores  
+### Percorre um vetor 
 
-Para cada elemento do vetor considere ele o valor.
+Para cada **_elemento_** do **vetor** `$vet` coloque o **índice** em `$ind` e o **valor** em `$val`.
 
-```php 
-foreach ($vetor as $key => $valor) {
-    # código...
+```php
+foreach ($vet as $ind => $val) {
+    echo "O índice $ind tem o valor $val";
 }
 ```
 
 <br/>
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-<br/>
 
-# Tipo de Dados (Tipagem)
+## Tipo de Dados (Tipagem)
 
 Php não trabalha com tipagem.
 
@@ -72,14 +68,14 @@ Php não trabalha com tipagem.
 
 ## Concatenação
 
-### `.`
+#### `.`
 
 * Auto concatenação 	
 ```php
 $a .= $b
 ```
 
-* Inserção de variável em string
+* Inserção de variável em strings
 ```php
 echo "$nome tem $idade anos";
 ```
@@ -90,17 +86,17 @@ echo "$nome tem $idade anos";
 
 * Auto atribuição      `$n += 2`  
 
-* Incremento        `$n++`  
+* Operador de Incremento        `$n++`
 
-* Decremento        `$n--`
+* Operador de Decremento        `$n--`
 
 ## Relacionais
 
 `>` `<` `>=` `<=` `==` ( `!=` ou `<>` )     
 
-Inversor `$a =! $b`  
+* Inversor `$a =! $b`  
 
-Idêntico `$a === $b`
+* Idêntico `$a === $b`
 
 ## Lógicos
 
@@ -110,7 +106,7 @@ Idêntico `$a === $b`
 
 ## Operador Ternário		
 
-$n = **condição** `?` valor para **verdadeiro** `:` valor para **falso**
+>$n = **condição** `?` valor para **verdadeiro** `:` valor para **falso**
 
 ## Operador de Coalescência
 

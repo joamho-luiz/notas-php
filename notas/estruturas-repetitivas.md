@@ -31,7 +31,7 @@ do {
 
 <br/>
  
-# Inicialização + Teste lógico no início + Incrementação no início
+# Inicialização + Teste lógico no início + Incrementação
 
 ```php
 for ($a=0; $a <= 10; $a++) { 
@@ -43,7 +43,7 @@ for ($a=0; $a <= 10; $a++) {
  
 # Repetição útil para Vetores
 
-_"Para percorrer arrays"_
+_"Para percorrer vetores"_
 
 Para cada **_elemento_** do **vetor** `$vet` coloque o **índice** em `$ind` e o **valor** em `$val`.
 ```php
@@ -54,6 +54,6 @@ foreach ($vet as $ind => $val) {
 
 # Controle de loop
 
-* `Break;` sai do loop de repetição.	
+* `Break;` sai do loop da repetição.	
 
 * `Continue;` ignora o resto código passa para próxima repetição.

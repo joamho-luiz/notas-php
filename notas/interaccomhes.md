@@ -16,14 +16,14 @@ echo "Olá, mundo!";
  
 # Conexões
 
-## Dado de outra página
+## Com formulário 
 Pegar valor de um formulário html (`<form method="get">`) (valor chega pela URL)		
 
 ```php
 $variahvel = $_GET["name do objeto em html"];
 ```
 
-## Usar funções de outro arquivo .php
+## com outro arquivo .php
 
 `include "funccamho.php";`
 

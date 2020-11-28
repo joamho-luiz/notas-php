@@ -5,9 +5,9 @@ Rotinas
 # Funções
 
 ```php
-function fun ($parametro_1, $parametro_2) {
-    $adiccamho = $parametro_1 + $parametro_2;
-    return $adiccamho;
+function fun ($par_1, $par_2) {
+    $adic = $par_1 + $par_2;
+    return $adic;
 }
 
 $soma = fun (2, 4);
@@ -40,12 +40,12 @@ $med = mehdia(22, 4, 8, ... ,5);
 
 Entregar uma variável por inteiro não só um valor.
 ```php
-function soma (&$parametro) {        # & marca que se trata de passagem de referência e não de valo.
-    $parametro += 2;                # Irar trabalhar com $num
-    echo "$parametro";             # >>>>     5      <<<<<
+function soma (&$parahhmetro) {        # '&' marca que se trata de passagem de referência e não de valo.
+    $parahhmetro += 2;                # Irar trabalhar com $num
+    echo "$parahhmetro";             # >>>>     5      <<<<
 }
 
 $num = 3;
 fun ($num);
-echo "$num";             # >>>>     5      <<<<<
+echo "$num";             # >>>>     5      <<<<
 ```

@@ -6,7 +6,7 @@ Estruturas Seletivas
 
 ```php
 if ( condição ) {
-    # SE VERDADE
+    # SE VERDADEIRO
 }
 ```
  
@@ -16,7 +16,7 @@ if ( condição ) {
 
 ```php
 if ( condição ) {
-    # SE VERDADE
+    # SE VERDADEIRO
 } else {
     # SE FALSO
 }
@@ -26,9 +26,9 @@ Três possibilidades:
 
 ```php
 if ( condição 1 ) {
-    # SE 1 VERDADE
+    # SE 1 VERDADEIRO
 } elseif ( condição 2 ) {           # Sem espaço
-    # SE 1 FALSO E 2 VERDADE
+    # SE 1 FALSO E 2 VERDADEIRO
 } else {
     # SE 1 FALSO E 2 FALSO
 }
@@ -41,7 +41,7 @@ if ( condição 1 ) {
 ```php
 if ( condição 1 ) {
     if ( condição 2 ) {
-        # SE 1 E 2 VERDADE
+        # SE 1 VERDADEIRO E 2 VERDADEIRO
     }
 }
 ```
@@ -50,7 +50,7 @@ if ( condição 1 ) {
  
 # Condição ternária		
 
-`( condição ) ? verdadeiro : falso`
+`( condição ) ? SE VERDADEIRO : SE FALSO`
  
 <br/>
  
