@@ -1,22 +1,51 @@
-Rotinas com Parâmetros Dinâmicos
+Rotinas
+***
+<br/>
+ 
+# Funções
 
-function soma(){
-      $p = func_get_args();
-      $f = func_num_args();
+```php
+function fun ($parametro_1, $parametro_2) {
+    $adiccamho = $parametro_1 + $parametro_2;
+    return $adiccamho;
+}
+
+$soma = fun (2, 4);
+```
+
+# Funções com Parâmetros Dinâmicos
+
+Função que não determina a quantidade de parâmetros.
+
+```php
+function mehdia(){
+      $p = func_get_args();   # retorna um vetor com todos os parâmetros passados para a função 'mehdia'.
+      $f = func_num_args();   # retorna a quantidade de parâmetros repassados.
+
       $s = 0;
-      for($i=0; $i < $f; $i++){
-      	$s += $p[$i];
-      }}
-      $r = soma(2,3,5);
 
+      foreach ($p as $val) {
+            $s += $val;
+      }
 
-Rotinas externas
+      $mehdia = $s / $f;
 
-include "funccamho.php";
-      olah();
+      return $mehdia;
+}
 
-include	 		incluir se houver
-require			requerer se não houver da erro
-include_once		Incluir se já não foi requerido
-require_once		requer se já não foi requerido
+$med = mehdia(22, 4, 8, ... ,5);
+```
 
+# Passagem de Parâmetro por Referência
+
+Entregar uma variável por inteiro não só um valor.
+```php
+function soma (&$parametro) {        # & marca que se trata de passagem de referência e não de valo.
+    $parametro += 2;                # Irar trabalhar com $num
+    echo "$parametro";             # >>>>     5      <<<<<
+}
+
+$num = 3;
+fun ($num);
+echo "$num";             # >>>>     5      <<<<<
+```

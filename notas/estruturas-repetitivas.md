@@ -48,7 +48,7 @@ _"Para percorrer arrays"_
 Para cada **_elemento_** do **vetor** `$vet` coloque o **índice** em `$ind` e o **valor** em `$val`.
 ```php
 foreach ($vet as $ind => $val) {
-    echo "A posição $ind tem o valor $val";
+    echo "O índice $ind tem o valor $val";
 }
 ```
 
