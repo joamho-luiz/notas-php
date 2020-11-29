@@ -49,7 +49,6 @@
     - Lógicos
     - Ternário
     - De Coalescência
-    - Alguns métodos úteis em matemática
 
 <br/>
  
@@ -88,6 +87,10 @@
 * Funções com parâmetro dinâmico
 
 * Passagem de parâmetro por referência
+
+* Alguns métodos úteis
+
+    - Alguns métodos úteis em matemática
 
 <br/>
  

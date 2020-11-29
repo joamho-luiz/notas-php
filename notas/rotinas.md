@@ -49,3 +49,26 @@ $num = 3;
 fun ($num);
 echo "$num";             # >>>>     5      <<<<
 ```
+
+# Alguns métodos úteis
+
+* `isset()` - para verificar se chegou algum valor do formulário.
+```php
+$ano = isset($_GET["ano"])?$_GET["ano"]:"0";
+```
+
+* `date("Y")` - para pegar o ano atual.
+
+## Alguns métodos úteis em matemática
+
+`pow($v, $w)` potencia ( $v<sup> $w</sup> )
+
+`abs($v)` valor absoluto   
+
+`sqrt($v)` raiz quadrada   
+
+`intVal($v)` valor inteiro   
+
+`round($v)` arredondamento. Também: _ceil ( ) floor ( )_  
+
+`number_format($v1, 2, ",", ".")` separação de milhar por . e duas cas decimais por ,

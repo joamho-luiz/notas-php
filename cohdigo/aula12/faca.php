@@ -14,7 +14,7 @@
             $c = 1;
             do {
                 $d = $c * 7;
-                echo $c. " x = $d<br />";
+                echo $c. " x 7 = $d<br />";
                 $c++;
             } while ($c <= 10);
         ?>

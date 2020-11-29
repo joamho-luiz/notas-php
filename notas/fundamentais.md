@@ -30,7 +30,17 @@ Nomear variável a partir do valor de outra variável.
 
 * Atribuir valor a um elemento do vetor
 
-`$n[0] = 7;`
+    - `$n[0] = 7;` - colocar o valor '7' no índice '0'.
+
+    - `$a[] = 4;` - colocar o valor '4' no próximo índice vago.
+
+* Ver um vetor
+
+`print_r($vet);`
+
+* Preencher um vetor em passos
+
+`$c = range(5,20,5);` (de 5 até 20 pulando de 5 em 5.) `$c = array (5, 10, 15, 20)`
 
 ### Usar índices determinados
 
@@ -111,17 +121,3 @@ echo "$nome tem $idade anos";
 ## De Coalescência
 
 $n = `$_GET[`"name"`]` `??` "valor se não for passado nada";
-
-## Alguns métodos úteis em matemática
-
-`pow($v, $w)` potencia ( $v<sup> $w</sup> )
-
-`abs($v)` valor absoluto   
-
-`sqrt($v)` raiz quadrada   
-
-`intVal($v)` valor inteiro   
-
-`round($v)` arredondamento. Também: _ceil ( ) floor ( )_  
-
-`number_format($v1, 2, ",", ".")` separação de milhar por . e duas cas decimais por ,

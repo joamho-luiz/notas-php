@@ -9,7 +9,7 @@
             $num = isset($_GET["n"])?$_GET["n"]:0;
             $opr = isset($_GET["o"])?$_GET["o"]:1;
 
-            switch ($opr) {
+            switch ($opr) {                             // Tá bugado.
                 case 1: $r = $num * 2; break;
                 case 2: $r = $num; break;
                 case 3: $r = $num ^ 0.5;

@@ -17,7 +17,8 @@ echo "Olá, mundo!";
 # Conexões
 
 ## Com formulário 
-Pegar valor de um formulário html (`<form method="get">`) (valor chega pela URL)		
+Pegar valor de um formulário html (`<form action="'arquivo'.php" method="get">`)
+Este valor é repassado pela URL ( ?nome=pedro&ano=2004&sexo=Homem )	
 
 ```php
 $variahvel = $_GET["name do objeto em html"];
