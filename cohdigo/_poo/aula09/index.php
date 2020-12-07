@@ -14,13 +14,13 @@
                 $p[1] = new Pessoa("Nicky", 26, "M");
 
                 $l[0] = new Livro("Uma breve história", "João Arcanez", 120, $p[1]);
-                $l[1] = new Livro("Las venas abertas", "Pierre de Monez", 60, $p[1]);
+                $l[1] = new Livro("Las venas abiertas", "Pierre de Monez", 60, $p[1]);
                 $l[2] = new Livro("Brasil uma biografia", "Marina Santa Elena", 89, $p[0]);
 
                 //$l[1]->detalhar();
 
-                $l[0]->folhar(70);      // não funcionou
-                $l[0]->voltarPag();
+                $l[2]->folhar(70);
+                $l[2]->voltarPag();
 
                 var_dump($l[0]);
             ?>

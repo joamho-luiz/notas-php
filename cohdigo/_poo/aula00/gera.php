@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<!-- Código para gerar GETTERS e SETTERS -->
+
 <html lang="pt" dir="ltr">
     <head>
         <meta charset="utf-8">

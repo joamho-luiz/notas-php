@@ -15,7 +15,7 @@
                 $l1 = new Lutador("Cabano");
                 $l2 = new Lutador("Julio");
 
-                // Declar um combate:
+                // Declara um combate:
                 $f = new Luta($l1, $l2);
 
                 // Fazer as lutas:

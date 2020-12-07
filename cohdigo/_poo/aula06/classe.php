@@ -29,7 +29,7 @@
             if($c == false){
                 $this->ligado = false;
             }elseif($c == true){
-                $thsi->ligado = true;
+                $this->ligado = true;
             }
         }
     }
