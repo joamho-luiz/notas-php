@@ -1,7 +1,7 @@
 &nbsp; &nbsp; &nbsp; Este repositório contém anotações pessoais sobre a linguagem PHP. Criado com intuito de agrupar soluções e dicas de algumas dúvidas simples que eventualmente surjam na utilização da linguagem em  questão.  
 ***
 
-[**BÁSICO DA LÍNGUAGEM**](notas/bahsico-da-linguagem.md "Clique para ver o arquivo.md")  
+[**BÁSICO DA LÍNGUAGEM**](notas/bahsico.md "Clique para ver o arquivo.md")  
 
 * Nomenclaturas
 
@@ -52,7 +52,7 @@
 
 <br/>
  
-[**ESTRUTURAS SELETIVAS**](notas/estruturas-seletivas.md "Clique para ver o arquivo.md")    
+[**ESTRUTURAS SELETIVAS**](notas/seleccomhes.md "Clique para ver o arquivo.md")    
 
 * Condições Simples  
 
@@ -66,7 +66,7 @@
 
 <br/>
  
-[**ESTRUTURAS REPETITIVAS**](notas/estruturas-repetitivas.md "Clique para ver o arquivo.md")    
+[**ESTRUTURAS REPETITIVAS**](notas/repeticcomhes.md "Clique para ver o arquivo.md")    
 
 * Teste lógico no início  
 
@@ -94,7 +94,7 @@
 
 <br/>
  
-[**ORIENTAÇÃO A OBJETO**](notas/orientaccamho-a-objeto.md "Clique para ver o arquivo.md")    
+[**ORIENTAÇÃO A OBJETO**](notas/poo.md "Clique para ver o arquivo.md")    
 
 \>>> Básico <<<
 
