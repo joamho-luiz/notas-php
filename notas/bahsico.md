@@ -4,6 +4,19 @@ Básico da Linguagem
  
 # Nomenclaturas
 
+**camelCase** - methods, objetos
+
+**PascalCase** - Class, interfaces
+
+**Variáveis**
+
+    * Inciar com `$` seguido de uma letra ou `_`.
+    * É permitido usar números, exceto no inicio.
+    * PHP é case sensitive.
+    * Nomes compostos podem ser separados por `_` tudo em minusculo.
+
+    `$variavel_nova_2`
+
 <br/>
 
 # Comentários
